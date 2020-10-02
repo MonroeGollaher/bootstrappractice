@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: url("https://www.deere.com/assets/images/common/home-page/November-2020-Hero-1366x347.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50%;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* * {
+    outline: 1px solid red;
+} */
